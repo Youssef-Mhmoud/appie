@@ -7,14 +7,11 @@
 
 --- 02 COLORS
 
-Primary color: 
-
-- Tints: 
-
-- Shades: 
-
-- Accents: 
-- Greys: 
+color:
+1- Buttons color: #ff3e66
+2- Text: #0e1133
+3- Hero bg: #eef1f6
+4- Grey: #adb5bd
 
 --- 03 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -22,5 +19,19 @@ Primary color:
 */
 
 * {
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+
+  color: #0e1133;
 }
