@@ -35,3 +35,9 @@ body {
 
   color: #0e1133;
 }
+
+.container {
+  /* max-width: 118rem; */
+  padding: 0 12.8rem;
+  margin: 0 auto;
+}

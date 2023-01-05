@@ -4,7 +4,7 @@
 
 .header {
   height: 6.4rem;
-  padding: 6.4rem 9.6rem;
+  padding: 6.4rem 10rem;
   background-color: #eef1f6;
 
   display: flex;
@@ -62,12 +62,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  align-content: end;
 }
 
 .hero-info {
-  /* padding-left: 12.8rem; */
-  max-width: 60rem;
-  justify-self: center;
+  padding-left: 12.8rem;
+  /* max-width: 60rem; */
 }
 
 .heading-hero {
@@ -141,7 +141,7 @@ input[type="email"]::placeholder {
   align-items: center;
   justify-content: space-between;
   
-  background-color: rgba(14, 17, 51, 0.03);
+  background-color: rgba(14, 17, 51, 0.035);
   border-radius: 1rem;
 }
 
@@ -165,7 +165,7 @@ input[type="email"]::placeholder {
 
 .feedback-hero span {
   font-weight: normal;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .hero-img img {
@@ -173,3 +173,123 @@ input[type="email"]::placeholder {
 }
 
 /* ----------------------------- */
+/* HOW IT WORKS SECTION */
+/* ----------------------------- */
+
+.how-it-work {
+  padding: 9.6rem 0;
+}
+
+.section-title .main-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+
+  /* margin-bottom: 1rem; */
+}
+
+.sub-title-section {
+  font-size: 1.8rem;
+  color: rgba(14, 17, 51, 0.8);
+}
+
+.button-how-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-how {
+  background: none;
+  border: 1px solid rgba(14, 17, 51, 0.2);
+  padding: 1.4rem 2.4rem;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+.btn-how span {
+  font-weight: 400;
+}
+
+.how-boxes {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3.2rem;
+
+  margin-top: 4rem;
+}
+
+.how-box {
+  border: 1px solid rgba(14, 17, 51, 0.078);
+  height: 30rem;
+  border-radius: 9px;
+
+  padding: 4.8rem 4.6rem;
+}
+
+.how-icon-box {
+  background-color: #2facfc;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-icon-box-red {
+  background-color: #ea4d89;
+}
+
+.how-icon-box-blue {
+  background-color: #3679ff;
+}
+
+.how-icon-box-orange {
+  background-color: #f67842;
+}
+
+.how-icon-box-violet {
+  background-color: #6b88f7;
+}
+
+.how-icon-box-green {
+  background-color: #3bb094;
+}
+
+.how-it-icon {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.how-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.how-info-box {
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #495057;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+
+.btn-how-info {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color:  #495057;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
