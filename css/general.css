@@ -34,6 +34,8 @@ body {
   font-weight: 400;
 
   color: #0e1133;
+
+  position: relative;
 }
 
 .container {
@@ -58,4 +60,23 @@ body {
 
 .text--center {
   text-align: center !important;
+}
+
+/* SCROLL TO TOP */
+
+.scroll-to-top {
+  position: absolute;
+  bottom: 1%;
+  right: 5%;
+
+  background-color: #ff3e66;
+  border-radius: 6px;
+  padding: 1rem;
+  color: #fff;
+
+  opacity: .3;
+}
+
+.top-icon {
+  font-size: 2rem;
 }
