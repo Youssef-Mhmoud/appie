@@ -45,15 +45,11 @@ body {
 .main-title {
   font-size: 4.8rem;
   font-weight: 700;
+  margin-bottom: 1.6rem;
 }
 
 .sub-title-section {
   font-size: 1.8rem;
   line-height: 1.4;
   color: rgba(14, 17, 51, 0.7);
-}
-
-/* Helper Classes */
-.mb {
-  margin-bottom: 2.4rem;
 }
