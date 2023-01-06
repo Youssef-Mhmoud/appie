@@ -920,7 +920,7 @@ input[type="email"]::placeholder {
 /* ----------------------------- */
 
 .sponsers-section {
-  padding: 6.2rem 0;
+  padding: 6.2rem 0 9.6rem;
 }
 
 .sponsers-section .main-title {
@@ -946,10 +946,160 @@ input[type="email"]::placeholder {
 }
 
 .grid-img-spon {
-  display: flex
-  ;
+  display: flex;
 
   grid-column: 1 / -1;
   justify-self: center;
   gap: 6rem;
+}
+
+/* ----------------------------- */
+/* FOOTER */
+/* ----------------------------- */
+
+.footer {
+  padding: 8rem 0;
+  background-color: #eef1f6;
+}
+
+.foot-cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 6.4rem;
+}
+
+.foot-desc {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin-top: 2.2rem;
+  color: rgba(14, 17, 51, 0.75);
+}
+
+.foot-link {
+  display: block;
+  text-decoration: none;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+  color: #0e1133;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.social-icon {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.social-icon li {
+  /* width: .8rem;
+  height: .8rem; */
+  background-color: #fff;
+  padding: .8rem 1rem;
+  border-radius: 6px;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.foot-icon {
+  font-size: 1.6rem;
+  color: #0e1133;
+  text-decoration: none;
+}
+
+.comp-name {
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.camp-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.camp-list li {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.camp-list li a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+.company-address {
+  padding-left: 4rem;
+}
+
+.company-address .camp-list li {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.4;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.company-address .camp-list .foot-icon {
+  color: #2a6df5;
+  font-size: 2rem;
+}
+
+.copyrights {
+  grid-row: 2 ;
+  grid-column: 1 / -1;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 4.8rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-btn {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.apple-foot {
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #111;
+  font-size: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.and-foot {
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  color: #111;
+  font-size: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.copy {
+  font-size: 1.6rem;
+  color: rgba(14, 17, 51, 0.75);
 }
