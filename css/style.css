@@ -500,6 +500,7 @@ input[type="email"]::placeholder {
   margin-top: 9.6rem;
 
   display: flex;
+  justify-content: space-between;
   gap: 3.2rem;
 }
 
@@ -613,7 +614,7 @@ input[type="email"]::placeholder {
 }
 
 .slide-img img {
-  width: 98%;
+  height: 34rem;
 }
 
 .buttons-slide {
@@ -632,4 +633,66 @@ input[type="email"]::placeholder {
   border-radius: 50%;
   color: rgba(14, 17, 51, 0.594);
   cursor: pointer;
+}
+
+/* ----------------------------- */
+/* DOWNLOAD SECTION */
+/* ----------------------------- */
+
+.download-section {
+  padding: 15rem 0;
+  background-color: #eef1f6;
+}
+
+.down-cont {
+  max-width: 50rem;
+}
+
+.down-btns {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  margin-top: 3.2rem;
+}
+
+.apple-btn {
+  cursor: pointer;
+  background-color: #0e1133;
+  padding: 1.2rem 5.2rem 1.2rem 2rem;
+  border-radius: 1.5rem;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.android-btn {
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #0e1133;
+  padding: 1.2rem 5.2rem 1.2rem 2rem;
+  border-radius: 1.5rem;
+  color: #0e1133;
+
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+
+.apple-icon, .and-icon {
+  font-size: 3.8rem;
+}
+
+.down-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.down-logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: left;
 }
