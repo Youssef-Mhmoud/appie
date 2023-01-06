@@ -65,16 +65,23 @@ body {
 /* SCROLL TO TOP */
 
 .scroll-to-top {
-  position: absolute;
-  bottom: 1%;
+  position: fixed;
+  bottom: 5%;
   right: 5%;
 
   background-color: #ff3e66;
   border-radius: 6px;
   padding: 1rem;
   color: #fff;
+  cursor: pointer;
 
   opacity: .3;
+
+  transition: all .3s;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
 }
 
 .top-icon {
