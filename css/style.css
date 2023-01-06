@@ -895,11 +895,23 @@ input[type="email"]::placeholder {
   font-size: 1.4rem;
   font-weight: 600;
   cursor: pointer;
+
+  transition: all .3s;
+}
+
+.pricing-btn:hover {
+  background-color: #eee;
 }
 
 .pricing-pop-box .pricing-btn {
   background-color: #ff3e66;
   color: #fff;
+
+  transition: all .3s;
+}
+
+.pricing-pop-box .pricing-btn:hover {
+  background-color: #b91435;
 }
 
 /* ----------------------------- */
