@@ -12,7 +12,7 @@ color:
 2- Text: #0e1133
 3- Hero bg: #eef1f6
 4- Grey: #adb5bd
-
+5- Text: #0e1133
 --- 03 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -52,4 +52,10 @@ body {
   font-size: 1.8rem;
   line-height: 1.4;
   color: rgba(14, 17, 51, 0.7);
+}
+
+/* HELPER CLASSES */
+
+.text--center {
+  text-align: center !important;
 }
