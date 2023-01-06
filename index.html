@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <script
       type="module"
@@ -63,6 +64,9 @@
         </ul>
       </nav>
       <a href="#" class="btn btn-list">Get Started</a>
+      <div class="mobile-nav">
+        <ion-icon name="menu-outline" class="mob-menu"></ion-icon>
+      </div>
     </header>
 
     <section class="hero-section">
@@ -250,25 +254,29 @@
             </p>
 
             <div class="chose-about-boxes">
-              <div class="check-icon-box">
-                <ion-icon name="checkmark" class="check-icon"></ion-icon>
-              </div>
-              <div class="chose-about-box">
-                <p class="chose-text">Carefully designed</p>
+              <div class="check-flex-respon">
+                <div class="check-icon-box">
+                  <ion-icon name="checkmark" class="check-icon"></ion-icon>
+                </div>
+                <div class="chose-about-box">
+                  <p class="chose-text">Carefully designed</p>
 
-                <p class="chose-info">
-                  Mucker plastered bugger all mate morish are.
-                </p>
+                  <p class="chose-info">
+                    Mucker plastered bugger all mate morish are.
+                  </p>
+                </div>
               </div>
-              <div class="check-icon-box">
-                <ion-icon name="checkmark" class="check-icon"></ion-icon>
-              </div>
-              <div class="chose-about-box">
-                <p class="chose-text">Carefully designed</p>
+              <div class="check-flex-respon">
+                <div class="check-icon-box">
+                  <ion-icon name="checkmark" class="check-icon"></ion-icon>
+                </div>
+                <div class="chose-about-box">
+                  <p class="chose-text">Carefully designed</p>
 
-                <p class="chose-info">
-                  Mucker plastered bugger all mate morish are.
-                </p>
+                  <p class="chose-info">
+                    Mucker plastered bugger all mate morish are.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -974,7 +982,7 @@
 
     <section class="sponsers-section">
       <div class="container">
-        <h2 class="main-title">
+        <h2 class="main-title text--center">
           Appie works best with your favorite platforms
         </h2>
         <p class="sub-title-section text--center">
@@ -1012,7 +1020,7 @@
             alt="Sponsers"
             class="sponser-img"
           />
-          <div class="grid-img-spon">
+          <!-- <div class="grid-img-spon"> -->
             <img
               src="img/sponsers/sponser-7.png"
               alt="Sponsers"
@@ -1033,7 +1041,7 @@
               alt="Sponsers"
               class="sponser-img"
             />
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </section>
@@ -1118,12 +1126,10 @@
               <a href="#" class="apple-foot">
                 <ion-icon name="logo-apple"></ion-icon>
                 <span>Download for iOS</span>
-
               </a>
               <a href="#" class="and-foot">
                 <ion-icon name="logo-google-playstore"></ion-icon>
                 <span>Download for Android</span>
-
               </a>
             </div>
             <p class="copy">
