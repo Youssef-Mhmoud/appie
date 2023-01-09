@@ -261,6 +261,12 @@
     font-size: 3.2rem;
     margin-left: 1.6rem;
     cursor: pointer;
+
+    transition: all .3s;
+  }
+
+  .mobile-nav:hover {
+    color: #b91435;
   }
 
   .header {
@@ -319,7 +325,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 3.2rem;
+    gap: 4rem;
     margin-left: 0;
 
     position: absolute;
