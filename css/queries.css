@@ -255,15 +255,85 @@
   }
 
   /* Nav */
-  .nav-list {
-    display: none;
-  }
 
   .mobile-nav {
     display: block;
     font-size: 3.2rem;
     margin-left: 1.6rem;
     cursor: pointer;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .open .mobile-nav {
+    display: none;
+  }
+
+  .open .mob-menu-close {
+    display: block;
+    font-size: 3.2rem;
+    margin-left: 1.6rem;
+    cursor: pointer;
+
+    position: relative;
+    z-index: 9999;
+
+    transition: all .3s;
+  }
+
+  .open .mob-menu-close:hover {
+    color: #b91435;
+  }
+
+  .nav-list {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(100%);
+
+    transition: all 0.4s;
+  }
+
+  .open .nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .lists {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+    margin-left: 0;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .open .lists .list a {
+    font-size: 2.4rem;
+  }
+
+  .open .lists .list .nav-icon {
+    font-size: 1.6rem;
   }
 
   .btn-list:link,
@@ -423,6 +493,4 @@
   .slide-img img {
     width: 100%;
   }
-
-
 }

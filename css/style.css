@@ -71,6 +71,10 @@
   display: none;
 }
 
+.mob-menu-close {
+  display: none;
+}
+
 /* ----------------------------- */
 /* HERO SECTION */
 /* ----------------------------- */
