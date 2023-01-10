@@ -456,26 +456,29 @@ input[type="email"]::placeholder {
   height: 1.8rem;
   border-radius: 50%;
   background-color: #ff3e66;
+  box-shadow: 0 0 0 6.5px rgba(255, 62, 101, 0.1);
   position: relative;
 }
 
 .circle-icon-blue {
   background-color: #2facfc;
+  box-shadow: 0 0 0 6.5px rgba(47, 173, 252, 0.1);
 }
 
-.circle-icon-blue::after {
+/* .circle-icon-blue::after {
   background-color: rgba(47, 173, 252, 0.1) !important;
-}
+} */
 
 .circle-icon-green {
   background-color: #33c956;
+  box-shadow: 0 0 0 6.5px rgba(50, 195, 106, 0.1);
 }
 
-.circle-icon-green::after {
+/* .circle-icon-green::after {
   background-color: rgba(50, 195, 106, 0.1) !important;
-}
+} */
 
-.circle-icon::after {
+/* .circle-icon::after {
   content: "";
   width: 3.2rem;
   height: 3.2rem;
@@ -486,7 +489,7 @@ input[type="email"]::placeholder {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .feat-text-box {
   margin-left: 1.6rem;
@@ -919,7 +922,7 @@ input[type="email"]::placeholder {
   font-weight: 600;
   cursor: pointer;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .pricing-btn:hover {
@@ -930,7 +933,7 @@ input[type="email"]::placeholder {
   background-color: #ff3e66;
   color: #fff;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .pricing-pop-box .pricing-btn:hover {
@@ -1116,7 +1119,7 @@ input[type="email"]::placeholder {
   align-items: center;
   gap: 0.8rem;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .foot-link:hover,
@@ -1139,7 +1142,7 @@ input[type="email"]::placeholder {
   border-radius: 6px;
   cursor: pointer;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .social-icon li:hover {
@@ -1155,7 +1158,7 @@ input[type="email"]::placeholder {
   color: #0e1133;
   text-decoration: none;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .comp-name {
@@ -1180,11 +1183,11 @@ input[type="email"]::placeholder {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .camp-list li a:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .company-address {
