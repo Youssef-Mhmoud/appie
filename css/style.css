@@ -457,7 +457,7 @@ input[type="email"]::placeholder {
   border-radius: 50%;
   background-color: #ff3e66;
   box-shadow: 0 0 0 6.5px rgba(255, 62, 101, 0.1);
-  position: relative;
+  /* position: relative; */
 }
 
 .circle-icon-blue {
