@@ -235,9 +235,8 @@ input[type="email"]::placeholder {
   display: flex;
   align-items: center;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
-
 
 .btn-how span {
   font-weight: 400;
@@ -684,7 +683,7 @@ input[type="email"]::placeholder {
   font-weight: 500;
   cursor: pointer;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .slide-img img {
@@ -949,6 +948,24 @@ input[type="email"]::placeholder {
 
   display: flex;
   gap: 6.4rem;
+
+  position: relative;
+}
+
+.testi-cont::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right bottom, #3f51b5, #2c6ff4, #03a9f4);
+}
+
+.testi-person,
+.testi-info {
+  position: relative;
+  z-index: 1;
 }
 
 .testi-person img {
