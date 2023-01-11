@@ -234,7 +234,10 @@ input[type="email"]::placeholder {
 
   display: flex;
   align-items: center;
+
+  transition: all .3s;
 }
+
 
 .btn-how span {
   font-weight: 400;
@@ -680,6 +683,8 @@ input[type="email"]::placeholder {
   font-size: 1.6rem;
   font-weight: 500;
   cursor: pointer;
+
+  transition: all .3s;
 }
 
 .slide-img img {
@@ -705,12 +710,6 @@ input[type="email"]::placeholder {
   cursor: pointer;
 
   transition: all 0.3s;
-}
-
-.left-icon:hover,
-.right-icon:hover {
-  background-color: #0e1133;
-  color: #fff;
 }
 
 .right-icon {
@@ -923,10 +922,6 @@ input[type="email"]::placeholder {
   cursor: pointer;
 
   transition: all 0.3s;
-}
-
-.pricing-btn:hover {
-  background-color: #eee;
 }
 
 .pricing-pop-box .pricing-btn {

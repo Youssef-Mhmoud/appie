@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
 
@@ -77,9 +77,9 @@ body {
   color: #fff;
   cursor: pointer;
 
-  opacity: .3;
+  opacity: 0.3;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .scroll-to-top:hover {
@@ -88,4 +88,9 @@ body {
 
 .top-icon {
   font-size: 2rem;
+}
+
+.btn--hover-blue:hover {
+  background-color: #0e1133;
+  color: #fff;
 }
