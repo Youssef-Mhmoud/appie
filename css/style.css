@@ -168,6 +168,12 @@ input[type="email"]::placeholder {
 .arrow-icon {
   font-size: 2rem;
   color: #ff3e66;
+
+  transition: all .3s;
+}
+
+.arrow-icon:hover {
+  color: #b91435;
 }
 
 .people-hero {
