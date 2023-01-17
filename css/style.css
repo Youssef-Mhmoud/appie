@@ -85,14 +85,14 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
   z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
 
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .sticky .hero-section {
   margin-top: 12.8 !important;
-  margin: 12.8rem 0 0 0 ;
+  margin: 12.8rem 0 0 0;
 }
 /* ----------------------------- */
 /* HERO SECTION */
@@ -102,7 +102,7 @@
   background-color: #eef1f6;
 }
 
-.hero { 
+.hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -171,7 +171,7 @@ input[type="email"]::placeholder {
   font-size: 2rem;
   color: #ff3e66;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .arrow-icon:hover {
@@ -611,8 +611,8 @@ input[type="email"]::placeholder {
   transform: translate(-50%, -50%);
   color: #ff3e66;
   font-size: 3.6rem;
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   background-color: #fff;
   border-radius: 50%;
   cursor: pointer;
@@ -621,6 +621,13 @@ input[type="email"]::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: all 0.3s;
+}
+
+.btn-puase:hover {
+  background-color: #ff3e66;
+  color: #fff;
 }
 
 .btn-puase::after {
@@ -631,8 +638,8 @@ input[type="email"]::placeholder {
   transform: translate(-50%, -50%);
   border: 1px solid #fff;
   border-bottom-color: transparent;
-  width: 9.5rem;
-  height: 9.5rem;
+  width: 8.5rem;
+  height: 8.5rem;
   border-radius: 50%;
 }
 
@@ -641,18 +648,18 @@ input[type="email"]::placeholder {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -55%);
+  transform: translate(-50%, -59%);
   border: 1px solid transparent;
   border-bottom-color: #fff;
-  width: 11rem;
-  height: 11rem;
+  width: 9.9rem;
+  height: 11.1rem;
   border-radius: 50%;
 }
 
 .download-btn {
   position: absolute;
   top: 50%;
-  left: 58%;
+  left: 57.5%;
   transform: translate(-50%, -50%);
   color: #32c36a;
   font-size: 3.6rem;
@@ -666,6 +673,12 @@ input[type="email"]::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: all .3s;
+}
+.download-btn:hover {
+  background-color: #32c36a;
+  color: #fff;
 }
 
 .download-btn::after {
