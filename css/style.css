@@ -190,7 +190,7 @@ input[type="email"]::placeholder {
   align-items: center;
   justify-content: space-between;
 
-  background-color: rgba(14, 17, 51, 0.035);
+  background-color: rgba(14, 17, 51, 0.04);
   border-radius: 1rem;
 }
 
@@ -200,6 +200,16 @@ input[type="email"]::placeholder {
   border-radius: 50%;
   border: 3px solid #fff;
   margin-right: -1.6rem;
+}
+
+.people-img img:first-child {
+  z-index: 3;
+}
+.people-img img:nth-child(2) {
+  z-index: 2;
+}
+.people-img img:nth-child(3) {
+  z-index: 1;
 }
 
 .people-hero img:last-child {
